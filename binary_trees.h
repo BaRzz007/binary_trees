@@ -59,4 +59,5 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *,
 		const binary_tree_t *);
 int _pow_recursion(int, int);
+bst_t *bst_insert(bst_t **tree, int value);
 #endif /*BINARY_TREES_H*/
