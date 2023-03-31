@@ -61,4 +61,5 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *,
 int _pow_recursion(int, int);
 bst_t *bst_insert(bst_t **tree, int value);
 bst_t *array_to_bst(int *array, size_t size);
+bst_t *bst_search(const bst_t *tree, int value);
 #endif /*BINARY_TREES_H*/
