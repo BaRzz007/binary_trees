@@ -6,7 +6,7 @@
  * @value: value to search in the tree
  *
  * Return: pointer to the node containing a value equals to @value
- * 	otherwise NULL if nothing is found or if @tree is NULL
+ * otherwise NULL if nothing is found or if @tree is NULL
  */
 bst_t *bst_search(const bst_t *tree, int value)
 {
